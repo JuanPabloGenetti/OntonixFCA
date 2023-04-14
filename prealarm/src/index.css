@@ -1,0 +1,200 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Golos Text', sans-serif;
+
+}
+
+body{
+  background-color: rgb(230, 230, 230);
+  margin: 0;
+}
+
+.ricardo{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.OntonixLogo{
+  width: 190px;
+  height: 35px;
+  margin-left: 12px;
+}
+
+.ricardo> p{
+  margin-right: 12px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.ricardo > ul >li{
+  margin-left: 12px;
+}
+
+.Alerts--title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 1.4em;
+  letter-spacing: 3px;
+}
+
+.complexityElements--container{
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;  
+}
+
+.alert--container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alarm {
+  display: flex;
+  width: 70px;
+  height: 30px;
+  align-items:center;
+  justify-content:center;
+  color: white;
+  font-weight: lighter;
+}
+
+
+.ticker--name{
+  background-color:white;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+
+  font-weight: bold;
+}
+
+.sample--container{
+  display: flex;
+  justify-content: center;
+  margin-top: 190px;
+  justify-self: center;
+  gap: 80px;
+}
+
+.sample1{
+  display: flex;
+  width: 130px;
+  height: 30px;
+  border-radius: 4px;
+  align-items:center;
+  justify-content:center;
+  color: white;
+  font-weight: lighter;
+  background-color: #7CCA63;
+}
+
+.sample2{
+  display: flex;
+  width: 130px;
+  height: 30px;
+  border-radius: 4px;
+  align-items:center;
+  justify-content:center;
+  color: white;
+  font-weight: lighter;
+  background-color: #DFC04C;
+}
+
+.sample3{
+  display: flex;
+  width: 130px;
+  height: 30px;
+  border-radius: 4px;
+  align-items:center;
+  justify-content:center;
+  color: white;
+  font-weight: lighter;
+  background-color: #ED3535;
+  margin-bottom: 30px;
+}
+
+.alertCounter--container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.alertTracker--title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 220px;
+  font-size: 1.4em;
+  letter-spacing: 3px;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+.AlertCounter--tickerContainer{
+  margin-top: 70px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  
+}
+
+.AlertCounter--tickerContainer--bubble{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  padding: 1em;
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+;
+}
+
+.AlertCounter--tickerContainer--bubble > div {
+  color: red;
+}
+
+.footer--container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px  ;
+  margin-bottom: 10px;
+}
+
+.footer--info{
+  font-size: 12px;
+}
+
+
+@media (max-width: 1000px) {
+  .alertCounter--container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+    
+  }
+
+  .footer--info{
+    padding: 8px;
+    margin-right: 12px;
+    margin-left: 12px;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
